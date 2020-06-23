@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".PhrasesActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:text="Home-screen"
+        android:paddingBottom="12dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="openHomepage"
+        android:background="#ee0290"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="1"
+        android:background="#FFFF00"
+        android:text="Crop 1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="#A1887F"
+        android:layout_marginBottom="12dp"
+        android:layout_height="wrap_content"
+        android:text="Crop 2" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="#E64A19"
+        android:layout_height="wrap_content"
+        android:text="Crop 3" />
+</LinearLayout>
